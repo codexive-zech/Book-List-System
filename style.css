@@ -1,0 +1,16 @@
+.container {
+  width: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+h5.display-4 {
+  text-align: center;
+  font-size: 2.8125rem;
+  margin: 0.9375rem;
+}
+
+.btn-info {
+  margin: 0.5625rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h5 class="display-4">BOOK-MARKER</h5>
+    <div class="jumbotron">
+      <h4>Bookmark Your Favorite Site</h4>
+      <form id="my-form">
+        <div class="form-group">
+          <label for="site-name">Site Name</label>
+          <input type="text" id="site-name" placeholder="Enter The Website Name" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="site-url">Site URL</label>
+          <input type="text" id="site-url" placeholder="Enter The Website URL" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div id="bookmark-result"></div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
